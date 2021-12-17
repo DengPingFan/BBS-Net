@@ -15,7 +15,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 
 ## 2. Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1SxBjlTF4Tb74WjuDsRmM3w) [code: yiy1] and trained model (BBSNet.pth) from [Here](https://pan.baidu.com/s/1Fn-Hvdou4DDWcgeTtx081g) [code: dwcp]. Then put them under the following directory:
+ - Download the raw data from [Baidu Pan](https://pan.baidu.com/s/1SxBjlTF4Tb74WjuDsRmM3w) [code: yiy1] or [Google Drive](https://drive.google.com/drive/folders/1gIMun9bM5JDrs98sLjXt7XoFCdvy1DXF?usp=sharing) and trained model (BBSNet.pth) from [Here](https://pan.baidu.com/s/1Fn-Hvdou4DDWcgeTtx081g) [code: dwcp]. Then put them under the following directory:
  
         -BBS_dataset\ 
           -RGBD_for_train\  
@@ -43,7 +43,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 
 - Evaluate the result maps:
     
-    You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
+    You can evaluate the result maps using the tool in [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics) or [Matlab Version](http://dpfan.net/d3netbenchmark/).
     
 - If you need the codes using VGG16 and VGG19 backbones, please send to the email (zhaiyingjier@163.com). Please provide your Name & Institution. Please note the code can be only used for research purpose.
 ## 4. Results
@@ -95,6 +95,7 @@ Please cite the following paper if you use this repository in your reseach.
 	}
 
 - For more information about BBS-Net, please read the [Manuscript (PDF)](https://arxiv.org/pdf/2007.02713.pdf) ([Chinese version](https://pan.baidu.com/s/1zxni7QjBiewwA1Q-m7Cqfg)[code:0r4a]).
+- Note that there is a wrong in the Fig.3 (c) of the ECCV version. The second and third BConv3 in the first column of the figure should be BConv5 and BConv7 respectively.
 
 ## 6. Benchmark RGB-D SOD
 
